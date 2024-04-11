@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Stypko - Wild Bubble Bounce</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        body * {
+            font-size: 2em;
+        }
+
+        h1, .hero-section h1 {
+            font-size: 2em;
+        }
+
+        h2, .gallery-title, .video-section h2, .content-section h2, .work-with-us h2 {
+            font-size: 1.75em;
+        }
+
+        p, a, .navbar div, .gallery-description, .footer, .video-description {
+            font-size: 1em;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 14px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a, .navbar div {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .hero-section {
+            background-image: url('https://i.postimg.cc/NMB481GD/Slika-1.png');
+            background-size: cover;
+            background-position: center;
+            height: 1600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .game-description {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .gallery-title {
+            text-align: center;
+            font-weight: bold;
+            margin: 40px 0 20px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .gallery div {
+            flex: 0 0 calc(33.33% - 40px);
+            margin: 20px;
+            text-align: center;
+        }
+
+        .gallery img {
+            width: 100%;
+            transition: transform 0.2s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-description {
+            margin-top: 10px;
+            font-size: 0.5em;
+        }
+
+        .video-section {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 33.75%;
+            width: 40%;
+            margin: auto;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .work-with-us {
+            background-image: url('https://i.postimg.cc/NMB481GD/Slika-1.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .content-section, .news-section {
+            padding: 40px;
+        }
+
+        .news-section {
+            background-color: #f0f0f0;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div>
+        <a href="#home">Naslovnica</a>
+        <a href="#about">O igri</a>
+        <a href="#contact">Kontakt</a>
+    </div>
+    <div>Stypko</div>
+</div>
+
+<div id="home" class="hero-section">
+</div>
+
+<div class="game-description">
+    <h2>O igri</h2>
+    <p>"Wild Bubble Bounce" je uzbudljiva avantura koja te vodi na nezaboravno putovanje kroz šarene svjetove prepune izazova, zabave i nevjerojatnih iznenađenja. Ova igra kombinira elemente arkadnih igara s platformskim izazovima, pružajući ti jedinstveno iskustvo igranja koje će te držati prikovanim uz ekran.
+
+Uz dinamičnu mehaniku igranja, svaka razina je ispunjena intrigantnim preprekama i neprijateljima koje moraš svladati kako bi napredovao. Budi spreman suočiti se s raznim protivnicima, od opakih ženskih likova koje prigovaraju i žele te zaustaviti, do neobičnih, ali ljutih likova s neobičnim šeširima koji skrivaju svoje zlobe. Tvoj zadatak je preći kroz sve te izazove koristeći svoje vještine i spretnost kako bi se domogao cilja.
+
+Svaki nivo nudi raznolike dijelove mape, od tropskih džungli do urbanih krajolika, pružajući ti nevjerojatno iskustvo istraživanja i otkrivanja. Svaki kutak mape krije tajne i skrivene bonuse koje ćeš morati otkriti kako bi postigao potpunu pobjedu.
+
+No, istinsko blago krije se u sakupljanju novčića. Tvoj glavni cilj je skupiti sve srebrne, zlatne i rijetke ljubičaste novčiće rasute po razinama. To će ti donijeti ne samo visok rejting, već i priliku da otključaš posebne nagrade i bonuse koji će ti olakšati put kroz igru.
+
+S nevjerojatnom grafikom, zaraznom glazbom i beskrajnim izazovima, "Wild Bubble Bounce" je igra koja će te oduševiti i zadržati te uzbudljivo angažiranim. Jesi li spreman započeti svoje epsko putovanje i osvojiti svijet divljih kuglica? Zaroni u ovu nevjerojatnu avanturu i otkrij što te čeka!</p>
+</div>
+
+<div class="gallery-title">Galerija</div>
+
+<div id="gallery" class="gallery">
+    <div>
+        <a href="#link1"><img src="https://i.postimg.cc/SNcW8bmS/1.png"></a>
+        <p class="gallery-description">Započnite svoje uzbudljivo putovanje kroz šarene svjetove s prvim korakom u igri Wild Bubble Bounce</p>
+    </div>
+    <div>
+        <a href="#link2"><img src="https://i.postimg.cc/3rBL57Qy/4.png"></a>
+        <p class="gallery-description">Istražite nepredvidive izazove dok se suočavate s raznolikim protivnicima, poput oštroumnih žena spremnih na sve kako bi vas zaustavile u igri Wild Bubble Bounce.</p>
+    </div>
+    <div>
+        <a href="#link3"><img src="https://i.postimg.cc/QtJ60Zqr/image-2024-04-11-100406105.png"></a>
+        <p class="gallery-description">U susretu s ljutim čarobnjacima, otkrijte svoje sposobnosti dok se borite za prolaz kroz svijet.</p>
+    </div>
+    <!-- Sljedeće tri slike su kopije slike 3, trebaju se zamijeniti s pravim linkovima -->
+    <div>
+        <a href="#link4"><img src="https://i.postimg.cc/SxprR7Yv/6.png"></a>
+        <p class="gallery-description">Otkrijte tajanstvene prolaze i bogate sadržaje dok istražujete šarene krajolike igre.</p>
+    </div>
+    <div>
+        <a href="#link5"><img src="https://i.postimg.cc/K8xgM9GC/3.png"></a>
+        <p class="gallery-description">Izazovno finale vaše divlje avanture čeka vas u urbanom labirintu.</p>
+    </div>
+    <div>
+        <a href="#link6"><img src="https://i.postimg.cc/rpYcqpZQ/Snimka-zaslona-2024-04-11-095518.png"></a>
+        <p class="gallery-description">Jurnjava za blagom! Lov na srebrne, zlatne i rijetke ljubičaste novčiće je ključ za pobjedu u igri Wild Bubble Bounce.</p>
+    </div>
+</div>
+
+<div class="video-section">
+    <h2>Bubble Bounce</h2>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/2JI3CqxjcfQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p class="video-description">Pogledajte našu najnoviju reklamu za Wild Bubble Bounce i zaronite u uzbudljivi svijet igre koja vas čeka!</p>
+</div>
+
+<div class="work-with-us">
+    <h2>Želiš postati dio našeg tima?</h2>
+    <p>Istražite uzbudljive mogućnosti karijere i pridružite se našem dinamičnom timu kako biste oživjeli inovativne igre.</p>
+</div>
+
+<div id="contact" class="content-section">
+    <h2>Kontaktirajte nas</h2>
+    <p>Slobodno se obratite za više informacija, podršku ili bilo kakva pitanja.</p>
+</div>
+
+<div class="footer">
+    © 2023 Wild Bubble Bounce by Stypko
+</div>
+
+</body>
+</html>
